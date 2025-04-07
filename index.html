@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da LGPD</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <div class="container">
+        <div id="nameInputs">
+            <label>Jogador 1: <input type="text" id="player1Name" placeholder="Jogador 1"></label><br>
+            <label>Jogador 2: <input type="text" id="player2Name" placeholder="Jogador 2"></label><br>
+            <label>Jogador 3: <input type="text" id="player3Name" placeholder="Jogador 3"></label><br>
+            <label>Jogador 4: <input type="text" id="player4Name" placeholder="Jogador 4"></label><br>
+            <button onclick="setPlayerNames()">Confirmar Nomes</button>
+        </div>
+        <div id="playerTurn" class="player-turn">Aguardando início...</div>
+        <div id="diceResult" style="margin-top: 20px; font-size: 18px;"></div>
+        <div class="game-area">
+            <div class="controls">
+                <div class="buttons-left">
+                    <button onclick="startGame()">Iniciar Jogo</button>
+                    <button onclick="rollDice()">Rolar Dado</button>
+                </div>
+            </div>
+            <div class="board" id="board"></div>
+            <div class="scoreboard" id="scores"></div>
+</body>
+<script src="back.js"></script>
+</html>
