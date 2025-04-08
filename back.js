@@ -13,25 +13,8 @@ let isAnsweringQuestion = false;
 
 // Perguntas
 const questions = [
-    { question: "A LGPD se aplica apenas a empresas que estão localizadas no Brasil.", answer: false },
-    { question: "A LGPD permite que os dados pessoais sejam compartilhados livremente, sem o consentimento do titular dos dados.", answer: false },
-    { question: "A LGPD exige que as empresas nomeiem um encarregado de proteção de dados, conhecido como DPO (Data Protection Officer).", answer: true },
-    { question: "A LGPD obriga que todas as empresas tenham um sistema de criptografia para todos os dados pessoais armazenados.", answer: false },
-    { question: "Os titulares dos dados têm o direito de solicitar a portabilidade de seus dados pessoais para outro prestador de serviços.", answer: true },
-    { question: "A LGPD permite que os dados pessoais sejam usados para finalidades diferentes das inicialmente informadas, desde que o titular seja notificado.", answer: true },
-    { question: "A LGPD não se aplica ao tratamento de dados pessoais de crianças e adolescentes.", answer: false },
-    { question: "Se uma empresa violar a LGPD, ela pode ser multada em até 2% do seu faturamento anual, limitado a R$ 50 milhões por infração.", answer: true },
-    { question: "A LGPD exige que os dados pessoais sejam coletados de forma excessiva e sem qualquer limitação.", answer: false },
-    { question: "A LGPD exige que as empresas implementem medidas de segurança para proteger os dados pessoais contra acessos não autorizados.", answer: true },
-    { question: "A LGPD permite que as empresas compartilhem dados pessoais sem a necessidade de consentimento se os dados forem necessários para a execução de um contrato.", answer: true },
-    { question: "A LGPD não se aplica ao tratamento de dados pessoais realizado por pessoas físicas para fins exclusivamente pessoais.", answer: true },
-    { question: "A LGPD exige que os dados pessoais sejam armazenados de forma indefinida, sem um prazo de retenção estabelecido.", answer: false },
-    { question: "O titular dos dados tem o direito de solicitar a exclusão de seus dados pessoais, mesmo que a empresa precise manter esses dados por uma exigência legal.", answer: false },
-    { question: "A LGPD permite o uso de dados pessoais para fins de marketing sem que o titular precise ser informado ou consentir.", answer: false },
-    { question: "As empresas devem fornecer ao titular dos dados uma forma clara e acessível de exercer seus direitos, como o acesso, correção e exclusão de dados pessoais.", answer: true },
-    { question: "A LGPD obriga as empresas a comunicar qualquer violação de dados pessoais à Autoridade Nacional de Proteção de Dados e aos titulares afetados.", answer: true },
-    { question: "A LGPD exige que as empresas realizem uma análise de impacto à proteção de dados pessoais em todos os tratamentos realizados.", answer: true },
-    { question: "A LGPD aplica-se apenas a empresas brasileiras, não afetando empresas estrangeiras que operam no Brasil.", answer: false }
+    { question: "Teste", answer: true },
+ 
 ];
 
 // Salvar o nome dos jogadores
